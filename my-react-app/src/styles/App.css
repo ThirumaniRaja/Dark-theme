@@ -1,0 +1,53 @@
+/ * This file contains styles specific to the App component. */
+
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.framework {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+.counter {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--button-background);
+  color: var(--button-text);
+  border: none;
+  border-radius: 5px;
+}
+
+.ticks {
+  margin: 20px 0;
+}
+
+#next-steps {
+  margin-top: 40px;
+}
+
+#docs, #social {
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
