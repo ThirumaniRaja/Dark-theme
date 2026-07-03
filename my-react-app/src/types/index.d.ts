@@ -1,1 +1,0 @@
-// This file is used to define custom TypeScript types and interfaces used throughout the application.
